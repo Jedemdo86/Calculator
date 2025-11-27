@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="394.0" prefWidth="283.0" styleClass="root" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.jedemdo86.calculator.CalcController">
+   <children>
+      <Button layoutX="20.0" layoutY="128.0" mnemonicParsing="false" onAction="#onSevenButtonClick" stylesheets="@styles.css" text="7" />
+      <Button layoutX="82.0" layoutY="128.0" mnemonicParsing="false" onAction="#onEightButtonClick" stylesheets="@styles.css" text="8" />
+      <Button layoutX="211.0" layoutY="256.0" mnemonicParsing="false" onAction="#onPlusButtonClick" styleClass="buttonOrange" stylesheets="@styles.css" text="+" />
+      <Button layoutX="211.0" layoutY="65.0" mnemonicParsing="false" onAction="#onDivButtonClick" styleClass="buttonOrange" stylesheets="@styles.css" text="\\" />
+      <Button layoutX="211.0" layoutY="318.0" mnemonicParsing="false" onAction="#onHelloButtonClick" styleClass="buttonRed" stylesheets="@styles.css" text="=" />
+      <Label fx:id="inputText" alignment="CENTER_RIGHT" layoutY="22.0" prefHeight="34.0" prefWidth="256.0" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Button layoutX="145.0" layoutY="128.0" mnemonicParsing="false" onAction="#onNineButtonClick" stylesheets="@styles.css" text="9" />
+      <Button layoutX="20.0" layoutY="191.0" mnemonicParsing="false" onAction="#onFourButtonClick" stylesheets="@styles.css" text="4" />
+      <Button layoutX="82.0" layoutY="191.0" mnemonicParsing="false" onAction="#onFiveButtonClick" stylesheets="@styles.css" text="5" />
+      <Button layoutX="145.0" layoutY="191.0" mnemonicParsing="false" onAction="#onSixButtonClick" stylesheets="@styles.css" text="6" />
+      <Button layoutX="20.0" layoutY="256.0" mnemonicParsing="false" onAction="#onOneButtonClick" stylesheets="@styles.css" text="1" />
+      <Button layoutX="82.0" layoutY="256.0" mnemonicParsing="false" onAction="#onTwoButtonClick" stylesheets="@styles.css" text="2" />
+      <Button layoutX="145.0" layoutY="256.0" mnemonicParsing="false" onAction="#onThreeButtonClick" stylesheets="@styles.css" text="3" />
+      <Button layoutX="211.0" layoutY="191.0" mnemonicParsing="false" onAction="#onMinusButtonClick" styleClass="buttonOrange" stylesheets="@styles.css" text="-" />
+      <Button layoutX="211.0" layoutY="128.0" mnemonicParsing="false" onAction="#onMultiButtonClick" styleClass="buttonOrange" stylesheets="@styles.css" text="*" />
+      <Button layoutX="145.0" layoutY="65.0" mnemonicParsing="false" onAction="#onClearButtonClick" styleClass="buttonOrange" stylesheets="@styles.css" text="C" />
+      <Button layoutX="82.0" layoutY="318.0" mnemonicParsing="false" onAction="#onZeroButtonClick" stylesheets="@styles.css" text="0" />
+      <Button alignment="CENTER" layoutX="20.0" layoutY="318.0" mnemonicParsing="false" prefHeight="92.0" prefWidth="99.0" stylesheets="@styles.css" text="+/-" />
+      <Button layoutX="145.0" layoutY="318.0" mnemonicParsing="false" onAction="#onZeroButtonClick" stylesheets="@styles.css" text="," />
+      <Button layoutX="82.0" layoutY="65.0" mnemonicParsing="false" onAction="#onClearButtonClick" styleClass="buttonOrange" stylesheets="@styles.css" text="&lt;" />
+      <Button layoutX="20.0" layoutY="65.0" mnemonicParsing="false" onAction="#onClearButtonClick" styleClass="buttonOrange" stylesheets="@styles.css" text="\%" />
+   </children>
+</AnchorPane>

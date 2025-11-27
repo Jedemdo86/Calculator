@@ -1,0 +1,48 @@
+.root {
+    -fx-background-color: #333333; /* dunkles Grau */
+    -fx-border-color: #ff8800;
+    -fx-border-width: 2;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+
+.button {
+    -fx-background-color: #3a7afe;
+    -fx-text-fill: white;
+    -fx-padding: 10 20;
+    -fx-background-radius: 8;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-pref-width: 50;
+    -fx-pref-height: 50;
+}
+
+.buttonRed {
+    -fx-background-color: #aa6666;
+    -fx-text-fill: white;
+    -fx-padding: 10 20;
+    -fx-background-radius: 8;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-pref-width: 50;
+    -fx-pref-height: 50;
+}
+
+.buttonOrange {
+    -fx-background-color: #996699;
+    -fx-text-fill: white;
+    -fx-padding: 10 20;
+    -fx-background-radius: 8;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-pref-width: 50;
+    -fx-pref-height: 50;
+}
+
+.button:hover {
+    -fx-background-color: #5b8cff;
+}
+
+.button:pressed {
+    -fx-background-color: #2c5cd8;
+}
