@@ -50,7 +50,7 @@ public class Operators {
         else if (operator == '-') {
             ergebnis = zahl1 - zahl2;
         }
-        else if (operator == '***') {
+        else if (operator == '*') { //bla
             ergebnis = zahl1 * zahl2;
         }
         else if (operator == '/') {
